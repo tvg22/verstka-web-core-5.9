@@ -25,21 +25,21 @@
  }
 h2 {
     color: #7B8A92;
-    font-size: 500;
-    margin-bottom: 2%;
+    font-weight: 600;
+    margin-bottom: 6px;
 }
 
 h3{
     color: #7B8A92;
-    font-size: 500;
-    margin-bottom: 2%;
+    font-weight: 500;
+    margin-bottom: 5px;
 }
 
 h5{
     color: #96A5B1 ;
-    font-size: 400;
-    margin-top: 0%;
-    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 28px;
 }
 
 p{
@@ -64,9 +64,11 @@ p{
     height: 100%;
     object-fit: cover;
  }
+
+
  .right {
     width: 50%;
-    padding: 60px;
+    padding: 60px 70px;
     background-color:#ffff;
  }
 
@@ -86,7 +88,7 @@ p{
     height: 44px;            
     padding: 0 18px;
 
-    border-radius: 6px;
+   
     font-size: 14px;
     font-weight: 400;
     color: #fff;
@@ -173,10 +175,20 @@ button {
  width: 40%;
  height: 44px;            
  padding: 0 18px;
-
+ 
+ border: none;
  border-radius: 6px;
  font-weight: 400;
  margin-top:30px;
+ cursor: pointer;
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+button:hover {
+ background: #3278ff;
+ transform: translateY(-2px);
+ transition: .2s;
 }
 
 
